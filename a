@@ -1,1 +1,9 @@
 aaaa
+
+https://zenn.dev/tmasuyama1114/articles/rails-docker-5x-how-to
+
+$ docker-compose run web rails new . --force --database=mysql
+
+$ docker-compose build
+
+$ docker-compose up -d
