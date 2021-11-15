@@ -10,3 +10,6 @@ $ docker-compose up -d
 
 $ docker-compose run web bundle exec rails db:create
 
+$ docker-compose down
+
+docker-comopose up -d
